@@ -6,7 +6,9 @@
 4.step
 5.continue
 6.print 1+2
-7.display argc
+  print <variable>
+7.display <variable>
 8.frame variable
   fr v
 9.q
+ exit
