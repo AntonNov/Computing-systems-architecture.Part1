@@ -2,7 +2,7 @@
   r <args>
 2.b <number_of_string>
   b <function_name>
-3.step next
+3.next
 4.step
 5.continue
 6.print 1+2
