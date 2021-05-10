@@ -1,9 +1,12 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1.process launch -- <args>
+  r <args>
+2.b <number_of_string>
+  b <function_name>
+3.step next
+4.step
+5.continue
+6.print 1+2
+7.display argc
+8.frame variable
+  fr v
+9.q
