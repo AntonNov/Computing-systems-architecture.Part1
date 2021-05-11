@@ -1,6 +1,7 @@
 speciality
 eccentric
 hello
+hello2
 int_hello
 segfault_ex
 no_segfault_ex
@@ -8,6 +9,7 @@ test_ll_cycle
 lfsr
 bit_ops
 vector-test
+main
 .DS_Store
 /Users/admin/ABC/.DS_Store
 .vscode
@@ -19,3 +21,4 @@ no_segfault_ex2
 *.dSYM
 *.o
 *.swp
+
