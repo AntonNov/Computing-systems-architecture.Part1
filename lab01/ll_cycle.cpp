@@ -1,7 +1,6 @@
 #include "ll_cycle.h"
 #include <stddef.h>
 
-
 bool ll_has_cycle(node *head) {
 	node *turtle = head;
 	node *hare = head;
