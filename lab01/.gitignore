@@ -9,3 +9,13 @@ lfsr
 bit_ops
 vector-test
 .DS_Store
+/Users/admin/ABC/.DS_Store
+.vscode
+valgrind-macos
+interactive_hello
+segfault_ex2
+no_segfault_ex2
+*.save
+*.dSYM
+*.o
+*.swp
