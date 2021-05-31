@@ -1,2 +1,2 @@
-#include "stdint.h"
+#include ""
 void lfsr_calculate(uint16_t *reg);
