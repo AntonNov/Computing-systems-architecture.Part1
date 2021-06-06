@@ -196,25 +196,27 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(220,310)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit0" val="1"/>
-      <a name="bit2" val="1"/>
-      <a name="bit3" val="1"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
+      <a name="bit0" val="2"/>
+      <a name="bit1" val="2"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="2"/>
       <a name="bit7" val="0"/>
+      <a name="fanout" val="3"/>
       <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(360,310)" name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit0" val="1"/>
-      <a name="bit2" val="1"/>
-      <a name="bit3" val="1"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
+      <a name="bit0" val="2"/>
+      <a name="bit1" val="2"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="2"/>
+      <a name="bit5" val="2"/>
+      <a name="bit6" val="2"/>
       <a name="bit7" val="0"/>
       <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
       <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(380,260)" name="Splitter">
@@ -239,7 +241,7 @@ end TCL_Generic;
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="1" loc="(310,300)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,310)" name="NOT Gate"/>
     <comp lib="1" loc="(510,260)" name="AND Gate"/>
     <comp lib="8" loc="(414,131)" name="Text">
       <a name="text" val="PUT CIRCUITRY HERE"/>
@@ -248,12 +250,15 @@ end TCL_Generic;
     <wire from="(210,220)" to="(380,220)"/>
     <wire from="(210,240)" to="(220,240)"/>
     <wire from="(220,240)" to="(220,310)"/>
-    <wire from="(240,300)" to="(280,300)"/>
-    <wire from="(240,310)" to="(240,350)"/>
-    <wire from="(240,350)" to="(340,350)"/>
-    <wire from="(280,300)" to="(290,300)"/>
+    <wire from="(240,300)" to="(260,300)"/>
+    <wire from="(240,320)" to="(240,340)"/>
+    <wire from="(240,340)" to="(340,340)"/>
+    <wire from="(260,300)" to="(260,310)"/>
+    <wire from="(260,310)" to="(280,310)"/>
+    <wire from="(280,310)" to="(290,310)"/>
+    <wire from="(310,300)" to="(310,310)"/>
     <wire from="(310,300)" to="(340,300)"/>
-    <wire from="(340,310)" to="(340,350)"/>
+    <wire from="(340,320)" to="(340,340)"/>
     <wire from="(360,310)" to="(610,310)"/>
     <wire from="(380,220)" to="(380,260)"/>
     <wire from="(400,250)" to="(460,250)"/>
