@@ -310,20 +310,25 @@ end TCL_Generic;
       <a name="label" val="RESULT"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="2" loc="(400,260)" name="Multiplexer">
-      <a name="enable" val="false"/>
-    </comp>
+    <comp lib="1" loc="(330,230)" name="NOT Gate"/>
+    <comp lib="1" loc="(410,210)" name="AND Gate"/>
+    <comp lib="1" loc="(410,280)" name="AND Gate"/>
+    <comp lib="1" loc="(660,240)" name="OR Gate"/>
     <comp lib="8" loc="(507,102)" name="Text">
       <a name="text" val="PUT CIRCUITRY HERE"/>
     </comp>
-    <wire from="(250,190)" to="(370,190)"/>
-    <wire from="(250,260)" to="(370,260)"/>
-    <wire from="(250,300)" to="(380,300)"/>
-    <wire from="(370,190)" to="(370,250)"/>
-    <wire from="(370,260)" to="(370,270)"/>
-    <wire from="(380,280)" to="(380,300)"/>
-    <wire from="(400,260)" to="(780,260)"/>
-    <wire from="(780,240)" to="(780,260)"/>
+    <wire from="(250,190)" to="(360,190)"/>
+    <wire from="(250,260)" to="(360,260)"/>
+    <wire from="(250,300)" to="(280,300)"/>
+    <wire from="(280,230)" to="(280,300)"/>
+    <wire from="(280,230)" to="(300,230)"/>
+    <wire from="(280,300)" to="(360,300)"/>
+    <wire from="(330,230)" to="(360,230)"/>
+    <wire from="(410,210)" to="(610,210)"/>
+    <wire from="(410,280)" to="(610,280)"/>
+    <wire from="(610,210)" to="(610,220)"/>
+    <wire from="(610,260)" to="(610,280)"/>
+    <wire from="(660,240)" to="(780,240)"/>
   </circuit>
   <circuit name="MUX4">
     <a name="appearance" val="logisim_evolution"/>
@@ -356,20 +361,18 @@ end TCL_Generic;
       <a name="label" val="RESULT"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="2" loc="(640,290)" name="Multiplexer">
-      <a name="enable" val="false"/>
-    </comp>
     <comp lib="8" loc="(470,108)" name="Text">
       <a name="text" val="PUT CIRCUITRY HERE"/>
     </comp>
     <comp loc="(510,210)" name="MUX2"/>
     <comp loc="(510,510)" name="MUX2"/>
+    <comp loc="(690,290)" name="MUX2"/>
     <wire from="(250,190)" to="(390,190)"/>
     <wire from="(250,240)" to="(390,240)"/>
     <wire from="(250,290)" to="(350,290)"/>
     <wire from="(250,340)" to="(370,340)"/>
     <wire from="(250,390)" to="(310,390)"/>
-    <wire from="(250,440)" to="(620,440)"/>
+    <wire from="(250,440)" to="(570,440)"/>
     <wire from="(310,390)" to="(310,550)"/>
     <wire from="(310,390)" to="(390,390)"/>
     <wire from="(310,550)" to="(390,550)"/>
@@ -380,12 +383,13 @@ end TCL_Generic;
     <wire from="(390,190)" to="(390,210)"/>
     <wire from="(390,230)" to="(390,240)"/>
     <wire from="(390,250)" to="(390,390)"/>
-    <wire from="(510,210)" to="(610,210)"/>
-    <wire from="(510,510)" to="(610,510)"/>
-    <wire from="(610,210)" to="(610,280)"/>
-    <wire from="(610,300)" to="(610,510)"/>
-    <wire from="(620,310)" to="(620,440)"/>
-    <wire from="(640,290)" to="(700,290)"/>
+    <wire from="(510,210)" to="(570,210)"/>
+    <wire from="(510,510)" to="(540,510)"/>
+    <wire from="(540,310)" to="(540,510)"/>
+    <wire from="(540,310)" to="(570,310)"/>
+    <wire from="(570,210)" to="(570,290)"/>
+    <wire from="(570,330)" to="(570,440)"/>
+    <wire from="(690,290)" to="(700,290)"/>
     <wire from="(700,290)" to="(700,300)"/>
   </circuit>
 </project>
